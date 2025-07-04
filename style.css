@@ -516,8 +516,6 @@ a:hover {
     .carddiv{
         padding: 0;
         margin: 0;
-        margin-left: 1.4rem;
-        margin-right: 1rem;
         grid-template-columns: 1fr;
         gap: 6rem;
         place-items: center;
@@ -525,6 +523,8 @@ a:hover {
     }
     .card4 {
         grid-column: span 1;
+        width: 92%;
+        height: 30rem;
     }
     .card2 {
     background: #035c82;
