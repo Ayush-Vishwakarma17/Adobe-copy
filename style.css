@@ -407,6 +407,13 @@ a{
     border-radius: 25px;
     position: relative;
 }
+.card12 {
+    background-color: peachpuff;
+    height: 32rem;
+    width: 25rem;
+    border-radius: 25px;
+    position: relative;
+}
 .imgcard{
     height: 100%;
     width: 100%;
