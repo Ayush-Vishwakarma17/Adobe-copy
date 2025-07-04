@@ -415,10 +415,11 @@ a{
 }
 .card4 {
     grid-column: span 2;
-    background: peachpuff !important;
+    background-color: peachpuff;
     height: 32rem;
     width: 99.3%;
     border-radius: 25px;
+    position: relative;
 }
 .card2 {
     position: relative;
@@ -432,6 +433,7 @@ a{
     height: 100%;
     width: 52%;
     margin-left: 23rem;
+    display: block;
     margin-bottom: 4rem;
 }
 
@@ -541,5 +543,33 @@ a:hover {
         margin-left: 1.5rem;
         height: 100%;
         width: 90%;
+    }
+}
+.textelements7 {
+    color: #2c2c2c;
+    font-size: 17px;
+    height: 20rem;
+    width: 90%;
+    position: absolute;
+    z-index: 992;
+    top: 2.4rem;
+    left: 1.6rem;
+}
+.btncapsule{
+    background-color: transparent;
+    font-size: 18px;
+    height: 3.2rem;
+    width: 14rem;
+    border-radius: 10rem;
+    border: 2px solid black;
+    transition: 0.3s ease;
+}
+.btncapsule:hover {
+    color: white;
+    background-color: black;
+}
+@media (max-width: 768px) {
+    .textelements7 {
+        font-size: 14px;
     }
 }
