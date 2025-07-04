@@ -518,6 +518,7 @@ a:hover {
         margin-right: 1rem;
         grid-template-columns: 1fr;
         gap: 6rem;
+        place-items: center;
         font-size: 15px;
     }
     .card4 {
