@@ -405,6 +405,7 @@ a{
     height: 32rem;
     width: 25rem;
     border-radius: 25px;
+    position: relative;
 }
 .imgcard{
     height: 100%;
@@ -420,6 +421,7 @@ a{
     border-radius: 25px;
 }
 .card2 {
+    position: relative;
     background: #035c82;
     background: linear-gradient(180deg, rgba(3, 92, 130, 1) 0%, rgba(175, 87, 199, 1) 50%, rgba(83, 222, 237, 1) 100%);
     height: 32rem;
@@ -461,4 +463,79 @@ a{
         height: 100%;
         width: 90%;
     }
+}
+.textelements {
+    color: #2c2c2c;
+    font-size: 16px;
+    height: 20rem;
+    width: 22rem;
+    position: absolute;
+    z-index: 888;
+    top: 2rem;
+    left: 1.6rem;
+}
+a {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: text-decoration 0.3s ease;
+    padding-right: 17rem;
+    padding-bottom: 4rem;
+}
+.textelements2 {
+    color: #2c2c2c;
+    font-size: 16px;
+    height: 20rem;
+    width: 22rem;
+    position: absolute;
+    z-index: 888;
+    top: 2.4rem;
+    left: 1.6rem;
+}
+.carddiv:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+.textelements3 {
+    color: white;
+    font-size: 15px;
+    height: 27rem;
+    width: 22rem;
+    position: absolute;
+    z-index: 888;
+    top: 2.4rem;
+    left: 1.6rem;
+}
+.a{
+    color: white;
+    padding: 0;
+    font-size: 12px;
+}
+.textelements5 {
+    color: white;
+    font-size: 16px;
+    height: 20rem;
+    width: 22rem;
+    position: absolute;
+    z-index: 888;
+    top: 2.4rem;
+    left: 1.6rem;
+}
+.textelements6 {
+    color: #2c2c2c;
+    font-size: 16px;
+    height: 20rem;
+    width: 22rem;
+    position: absolute;
+    z-index: 888;
+    top: 2.4rem;
+    left: 1.6rem;
+}
+.ab {
+    color: #2c2c2c;
+    padding: 0;
 }
