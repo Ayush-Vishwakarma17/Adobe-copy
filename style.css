@@ -523,10 +523,8 @@ a:hover {
     }
     .card4 {
         grid-column: span 1;
-        width: 92%;
+        width: 75%;
         height: 30rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .card2 {
     background: #035c82;
