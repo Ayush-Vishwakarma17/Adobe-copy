@@ -529,9 +529,11 @@ a:hover {
         font-size: 15px;
     }
     .card4 {
+        margin: 0;
+        padding: 0;
         grid-column: span 1;
-        width: 88%;
-        height: 30rem;
+        height: 29rem;
+        width: 24rem;
     }
     .card2 {
     background: #035c82;
