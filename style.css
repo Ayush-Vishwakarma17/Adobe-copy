@@ -528,13 +528,13 @@ a:hover {
         place-items: center;
         font-size: 15px;
         height: 310rem;
-        background: red !important;
+        
     }
     .card4 {
         margin: 0;
         padding: 0;
         grid-column: span 1;
-        height: 32rem;
+        height: 30rem;
         width: 90%;
     }
     .textelements {
@@ -543,13 +543,13 @@ a:hover {
     .card2 {
     background: #035c82;
     background: linear-gradient(180deg, rgba(3, 92, 130, 1) 0%, rgba(175, 87, 199, 1) 50%, rgba(83, 222, 237, 1) 100%);
-    height: 32rem;
+    height: 30rem;
     width: 90%;
     border-radius: 25px;
     }
     .card1 {
     background-color: black;
-    height: 32rem;
+    height: 30rem;
     width: 90%;
     border-radius: 25px;
     }
@@ -558,16 +558,20 @@ a:hover {
         height: 100%;
         width: 90%;
     }
-    .textelements2{
+    .textelements2 {
+        height: 50%;
         width: 88%;
     }
     .textelements3 {
+        height: 50%;
         width: 88%;
     }
     .textelements5 {
+        height: 50%;
         width: 88%;
     }
     .textelements6 {
+        height: 50%;
         width: 88%;
     }
 }
