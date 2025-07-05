@@ -392,7 +392,7 @@ a{
     }
 }
 .carddiv {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
     height: 100rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -525,12 +525,9 @@ a:hover {
         margin: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8,1fr);
-        gap: 2rem;
         place-items: center;
         font-size: 15px;
-        height: 310rem;
-        
-        
+        height: 255rem;
     }
     .card4 {
         margin: 0;
