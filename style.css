@@ -536,7 +536,7 @@ a:hover {
         width: 90%;
     }
     .textelements {
-        width: 95%;
+        width: 88%;
     }
     .card2 {
     background: #035c82;
@@ -557,16 +557,16 @@ a:hover {
         width: 90%;
     }
     .textelements2{
-        width: 95%;
+        width: 88%;
     }
     .textelements3 {
-        width: 95%;
+        width: 88%;
     }
     .textelements5 {
-        width: 95%;
+        width: 88%;
     }
     .textelements6 {
-        width: 95%;
+        width: 88%;
     }
 }
 .textelements7 {
@@ -595,5 +595,6 @@ a:hover {
 @media (max-width: 768px) {
     .textelements7 {
         font-size: 14px;
+        width: 88%;
     }
 }
