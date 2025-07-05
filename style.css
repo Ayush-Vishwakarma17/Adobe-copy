@@ -527,13 +527,14 @@ a:hover {
         gap: 6rem;
         place-items: center;
         font-size: 15px;
-        height: 125rem;
+        height: 310rem;
+        background: red !important;
     }
     .card4 {
         margin: 0;
         padding: 0;
         grid-column: span 1;
-        height: 30rem;
+        height: 32rem;
         width: 90%;
     }
     .textelements {
@@ -542,13 +543,13 @@ a:hover {
     .card2 {
     background: #035c82;
     background: linear-gradient(180deg, rgba(3, 92, 130, 1) 0%, rgba(175, 87, 199, 1) 50%, rgba(83, 222, 237, 1) 100%);
-    height: 30rem;
+    height: 32rem;
     width: 90%;
     border-radius: 25px;
     }
     .card1 {
     background-color: black;
-    height: 30rem;
+    height: 32rem;
     width: 90%;
     border-radius: 25px;
     }
