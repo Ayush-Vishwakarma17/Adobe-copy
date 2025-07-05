@@ -527,7 +527,7 @@ a:hover {
         grid-template-rows: repeat(8,1fr);
         place-items: center;
         font-size: 15px;
-        height: 186rem;
+        height: 195rem;
     }
     .card4 {
         margin: 0;
