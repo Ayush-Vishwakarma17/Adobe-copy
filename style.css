@@ -525,7 +525,7 @@ a:hover {
         margin: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8,1fr);
-        gap: 6rem;
+        gap: 2rem;
         place-items: center;
         font-size: 15px;
         height: 310rem;
