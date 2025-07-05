@@ -527,7 +527,7 @@ a:hover {
         grid-template-rows: repeat(8,1fr);
         place-items: center;
         font-size: 15px;
-        height: 260rem;
+        height: 186rem;
     }
     .card4 {
         margin: 0;
@@ -545,6 +545,10 @@ a:hover {
     height: 30rem;
     width: 90%;
     border-radius: 25px;
+    }
+    #cardno1,
+    #cardno2{
+        display: none;
     }
     .card1 {
     background-color: black;
