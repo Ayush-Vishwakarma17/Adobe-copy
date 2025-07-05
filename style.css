@@ -527,6 +527,7 @@ a:hover {
         gap: 6rem;
         place-items: center;
         font-size: 15px;
+        height: 125rem;
     }
     .card4 {
         margin: 0;
