@@ -673,4 +673,36 @@ a:hover {
     .child-footer{
         grid-template-columns: 1fr;
     }
+    .inner-parent-2{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr;
+    height: 20rem;
+}
+.inner-child-21{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#for-padding{
+    padding-right: 21px;
+}
+#for-padding2{
+    padding-right: 42px;
+}
+.child-footer-2{
+    margin-top: 3rem;
+    width: 94%;
+    height: 20rem;
+    justify-self: center;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+.inner-child-2{
+    margin: 4px auto;
+}
+.child-footer-1 {
+    border-top: 1px solid #444;
+}
+
 }
