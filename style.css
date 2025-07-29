@@ -392,11 +392,11 @@ a{
     }
 }
 .carddiv {
-    margin-top: 1.3rem;
+    margin-top: 2rem;
     height: 100rem;
     place-items: center;
     display: grid;
-    gap: 26px;
+    gap: 35px;
     grid-template-columns: repeat(3,1fr);
 }
 .card1 {
@@ -417,7 +417,7 @@ a{
     grid-column: span 2;
     background-color: peachpuff;
     height: 38rem;
-    width: 96.6%;
+    width: 97%;
     border-radius: 25px;
     position: relative;
 }
