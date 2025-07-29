@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', sans-serif;
+    
 }
 html, body {
   max-width: 100%;
@@ -393,9 +394,9 @@ a{
 }
 .carddiv {
     margin-top: 2rem;
-    height: 100rem;
-    place-items: center;
+    height: 120rem;
     display: grid;
+    place-items: center;
     gap: 35px;
     grid-template-columns: repeat(3,1fr);
 }
@@ -598,5 +599,58 @@ a:hover {
     .textelements7 {
         font-size: 14px;
         width: 88%;
+    }
+}
+.footer-end{
+    background-color: #fafafa;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #444;
+    justify-self: center;
+    height: 32rem;
+    margin-top: 2rem;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr .5fr .7fr; 
+}
+.child-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    gap: 2px;
+}
+.child-footer-1{
+    padding-top: 1rem;
+}
+.footer-list {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 12px;
+}
+.child-footer2{
+    width: 94%;
+    justify-self: center;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+
+}
+.span{
+    transition: 0.3s ease-in-out;
+    
+}
+.span:hover{
+    color: #3b62fb;
+    cursor: pointer;
+}
+.child-footer3{
+    
+}
+@media (max-width: 768px){
+    .child-footer{
+        grid-template-columns: 1fr;
     }
 }
