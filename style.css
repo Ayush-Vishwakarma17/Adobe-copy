@@ -392,7 +392,7 @@ a{
     }
 }
 .carddiv {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
     height: 100rem;
     place-items: center;
     display: grid;
@@ -517,34 +517,58 @@ a:hover {
         padding: 0;
         margin: 0;
         grid-template-columns: 1fr;
-        gap: 6rem;
+        grid-template-rows: repeat(8,1fr);
         place-items: center;
         font-size: 15px;
+        height: 195rem;
     }
     .card4 {
         margin: 0;
         padding: 0;
         grid-column: span 1;
-        height: 29rem;
-        width: 24rem;
+        height: 30rem;
+        width: 90%;
+    }
+    .textelements {
+        width: 88%;
     }
     .card2 {
     background: #035c82;
     background: linear-gradient(180deg, rgba(3, 92, 130, 1) 0%, rgba(175, 87, 199, 1) 50%, rgba(83, 222, 237, 1) 100%);
-    height: 26rem;
-    width: 24rem;
+    height: 30rem;
+    width: 90%;
     border-radius: 25px;
+    }
+    #cardno1,
+    #cardno2{
+        display: none;
     }
     .card1 {
     background-color: black;
-    height: 26rem;
-    width: 24rem;
+    height: 30rem;
+    width: 90%;
     border-radius: 25px;
     }
     .imgcard4 {
         margin-left: 1.5rem;
         height: 100%;
         width: 90%;
+    }
+    .textelements2 {
+        height: 50%;
+        width: 88%;
+    }
+    .textelements3 {
+        height: 50%;
+        width: 88%;
+    }
+    .textelements5 {
+        height: 50%;
+        width: 88%;
+    }
+    .textelements6 {
+        height: 50%;
+        width: 88%;
     }
 }
 .textelements7 {
@@ -573,5 +597,6 @@ a:hover {
 @media (max-width: 768px) {
     .textelements7 {
         font-size: 14px;
+        width: 88%;
     }
 }
