@@ -631,12 +631,11 @@ a:hover {
     gap: 1rem;
     font-size: 12px;
 }
-.child-footer2{
+.child-footer-2{
     width: 94%;
     justify-self: center;
     border-top: 1px solid #444;
     border-bottom: 1px solid #444;
-
 }
 .span{
     transition: 0.3s ease-in-out;
@@ -645,6 +644,27 @@ a:hover {
 .span:hover{
     color: #3b62fb;
     cursor: pointer;
+}
+.child-footer-2{
+    display: grid;
+}
+.inner-parent-2{
+    width: 50%;
+    height: 100%;
+    justify-self: center;
+    display: grid;
+    align-self: center;
+    gap: 2px;
+    grid-template-columns: repeat(5,1fr);
+}
+.inner-child-2{
+    display: flex;
+    align-items: center;
+}
+.inner-child-21{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .child-footer3{
     
