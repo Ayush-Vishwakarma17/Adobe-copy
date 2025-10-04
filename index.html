@@ -2,18 +2,14 @@
 <html lang="en">
   <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
     <title>Adobe Clone</title>
     <link rel = "stylesheet" href="style.css">
   </head>
   <body>
 
 
-    <!-- fixed header 1 is here -->
-
-
-
-  <div id="trans">
+    <div id="trans">
     <div id="fixed">
       <div id="tophead">
         <div id="h3text">
@@ -26,10 +22,7 @@
     </div>
   </div>
 
-    <!-- Header fixed 2 is here -->
-
-
-  <div id="trans2">
+    <div id="trans2">
     <div id="fixedheader2">
       <div class="leftnav">
         <div id="adobeimgdiv">
@@ -47,6 +40,7 @@
 
 
       <div class="rightnav">
+        <img id="theme-toggle" src="material/sun.png" height="25px" width="25px" alt="Theme Toggle" style="cursor: pointer; transition: transform 0.3s ease;">
         <img id="gridimg" src="material/grid2.png" height="29px" width="29px" alt="">
         <button id="signbtn"> <b>Sign Up</b></button>
       </div>
@@ -56,14 +50,12 @@
 
 
 
-    <!-- Part 3 of the page the video and the text -->
-
     <div id="page1div">
       <div id="page1left">
 
         <h1 id="h1">Adobe Summer Sale!</h1>
-        <p style="font-size: 20px; font-weight: 500; color: #2c2c2c;">Save big on select Creative Cloud plans including All Apps, Photoshop, Illustrator, Premiere Pro, and more.</p>
-        <p style="font-size: 16.5px; font-weight: 500; color: #2c2c2c;">Plans starting from Alternatively at₹599.00/mo Regularly at₹733.96/mo for the annual billed monthly plan. First year only. Ends July 30. <a href="/">See terms</a>.</p>
+        <p style="font-size: 20px; font-weight: 500;">Save big on select Creative Cloud plans including All Apps, Photoshop, Illustrator, Premiere Pro, and more.</p>
+        <p style="font-size: 16.5px; font-weight: 500;">Plans starting from Alternatively at₹599.00/mo Regularly at₹733.96/mo for the annual billed monthly plan. First year only. Ends July 30. <a href="/">See terms</a>.</p>
         <button id="savebtn2"><b>Save now</b></button>
       </div>
 
@@ -80,15 +72,11 @@
 
 
 
-<!-- Play Pause Icon -->
-
-    <div id="page2div">
+<div id="page2div">
       <img src="material/play-button.png" height="40px" width="40px" alt="">
     </div>
 
-<!-- black banner part  -->
-
-    <div id="blackbanner">
+<div id="blackbanner" class="reveal">
         <div id="h2text">
         <h2>Welcome back! Want to pick up where you left off?</h2>
         </div>
@@ -97,9 +85,7 @@
         </div>
       </div>
 
-<!-- use cases of the adobe part  -->
-
-  <div id="banner2">
+<div id="banner2" class="reveal">
     <h3>Creative Cloud for:</h3>
     <button id="btnbanner">Everyone</button>
     <button id="btnbanner">Students</button>
@@ -111,11 +97,9 @@
 
 
 
-  <!-- The Cards part 1 -->
-
   <div class="carddiv">
 
-    <div class="card1" id="cardno1" ><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/cc/media_1d4a80f7cadafa143ce0259847d94b9d697cc5103.jpg?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal" id="cardno1" ><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/cc/media_1d4a80f7cadafa143ce0259847d94b9d697cc5103.jpg?width=2000&format=webply&optimize=medium" alt="">
     
     <div class="textelements">  <h2>Save over 35% on Creative Cloud.</h2>
     <br><br><p>Summer sale! Get the All Apps plan including Photoshop and 20+ apps, plus generative AI features. Ends July 30. First year only. Terms apply**</p>
@@ -123,7 +107,7 @@
     </div>
 
 
-    <div class="card1" id="cardno2"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/edu/media_1a0d303649df768e8540c7517b7a5fbac3daea38e.jpg?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal" id="cardno2"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/edu/media_1a0d303649df768e8540c7517b7a5fbac3daea38e.jpg?width=2000&format=webply&optimize=medium" alt="">
 
     <div class="textelements2" ><h4>STUDENTS AND TEACHERS</h4> <br><br>
       <h2>Save over 70% on Creative Cloud.</h2>
@@ -134,7 +118,7 @@
     </div>
 
 
-    <div class="card2">
+    <div class="card2 reveal">
       <div class="textelements3">
        <h2>Creative Cloud</h2>
        <br>
@@ -158,7 +142,7 @@
     </div>
 
 
-    <div class="card12 card4">
+    <div class="card12 card4 reveal">
       <img class="imgcard4" src="https://www.adobe.com/in/homepage/fragments/loggedout/row-custom-pods/intro-price/marquee-brick/wide-brick/media_130ec685b4e18536509718c6e69f0ac5bb183a4cb.png?width=2000&format=webply&optimize=medium" alt="">
       <div class="textelements7">
         <h3>Adobe Express</h3>
@@ -172,7 +156,7 @@
     </div>
 
 
-    <div class="card1"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/max-london-tkdwn-2025/media_1646e99243862f42673a0fef9b4ba9f7a00fcff14.png?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/max-london-tkdwn-2025/media_1646e99243862f42673a0fef9b4ba9f7a00fcff14.png?width=2000&format=webply&optimize=medium" alt="">
     <div class="textelements5"><h4>ADOBE FIREFLY</h4> <br>
       <h2>The ultimate creative AI solution.</h2>
       <br><p>Go from standard to standout with 20+ amazing apps. Ends July 30. First year only. Terms apply***</p>
@@ -180,7 +164,7 @@
     </div>
 
 
-    <div class="card1"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/row-custom-pods/intro-price/regular-pods/cc/media_196247b4f0d791c51179bd6fc95487d176d8ccba0.png?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/row-custom-pods/intro-price/regular-pods/cc/media_196247b4f0d791c51179bd6fc95487d176d8ccba0.png?width=2000&format=webply&optimize=medium" alt="">
       <div class="textelements5"><h4>ADOBE ACROBAT</h4> <br><br>
       <h2>Save 40% on Acrobat Standard and Pro.</h2>
       <br><p>Get more with Acrobat. Now available at a special price for India.</p>
@@ -190,7 +174,7 @@
     
     
 
-    <div class="card1"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/max-2024/media_19e1e579da00bf827b9a43d16a873e8a0ec096c5a.jpg?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/pods/max-2024/media_19e1e579da00bf827b9a43d16a873e8a0ec096c5a.jpg?width=2000&format=webply&optimize=medium" alt="">
     <div class="textelements6"><h4>ADOBE GENSTUDIO FOR PERFORMANCE MARKETING</h4> <br>
       <h2>Empower marketing teams.</h2>
       <br><p>Generate high-performing on-brand campaign content.</p>
@@ -198,7 +182,7 @@
     </div>
 
 
-    <div class="card1"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/row-custom-pods/intro-price/regular-pods/cc/media_1b14c79aa80d73b132ddea716527259dd13e42e41.png?width=2000&format=webply&optimize=medium" alt="">
+    <div class="card1 reveal"><img class="imgcard" src="https://www.adobe.com/in/homepage/fragments/loggedout/row-custom-pods/intro-price/regular-pods/cc/media_1b14c79aa80d73b132ddea716527259dd13e42e41.png?width=2000&format=webply&optimize=medium" alt="">
     <div class="textelements">  
       <h4>BUSINESS OFFER</h4><br>
       <h2>49% off the 1st year on Creative Cloud All Apps.</h2>
@@ -208,12 +192,7 @@
   
   </div>
   
-  <!-- the final div of the footer -->
-  <!-- includes icon and all the services tabs -->
-
   <div class="footer-end">
-
-    <!-- 6 columns in child footer 1 for the details of the services  -->
 
     <div class="child-footer">
 
@@ -221,36 +200,36 @@
       <div class="child-footer-1">
         <h4>For individuals & small business</h4>
         <div class="footer-list">
-        <span>Creative AI</span>
-        <span>Photography</span>
-        <span>Design and illustration</span>
-        <span>Video and animation</span>
-        <span>PDF</span>
-        <span>3D</span>
-        <span>Elements Family</span>
-        <span>Stock images and video</span>
-        <span>View all products</span>
+        <span class="span">Creative AI</span>
+        <span class="span">Photography</span>
+        <span class="span">Design and illustration</span>
+        <span class="span">Video and animation</span>
+        <span class="span">PDF</span>
+        <span class="span">3D</span>
+        <span class="span">Elements Family</span>
+        <span class="span">Stock images and video</span>
+        <span class="span">View all products</span>
       </div>
     </div>
 
       <div class="child-footer-1">
         <h4>For medium & large business</h4>
         <div class="footer-list">
-        <span>Personalization at scale</span>
-        <span>Content supply chain</span>
-        <span>Unified customer experience</span>
-        <span>Creativity and production</span>
-        <span>B2B GTM orchestration</span>
-        <span>View all products</span>
+        <span class="span">Personalization at scale</span>
+        <span class="span">Content supply chain</span>
+        <span class="span">Unified customer experience</span>
+        <span class="span">Creativity and production</span>
+        <span class="span">B2B GTM orchestration</span>
+        <span class="span">View all products</span>
         </div>
       </div>
 
       <div class="child-footer-1">
         <h4>For organizations</h4>
         <div class="footer-list">
-        <span>Education</span>
-        <span>Nonprofits</span>
-        <span>Government</span>
+        <span class="span">Education</span>
+        <span class="span">Nonprofits</span>
+        <span class="span">Government</span>
         </div>
       </div>
 
@@ -258,11 +237,11 @@
       <div class="child-footer-1">
         <h4>Support</h4>
         <div class="footer-list">
-        <span>Help Center</span>
-        <span>Download and install</span>
-        <span>Adobe Community</span>
-        <span>Adobe Learn</span>
-        <span>Medium and large business support</span>
+        <span class="span">Help Center</span>
+        <span class="span">Download and install</span>
+        <span class="span">Adobe Community</span>
+        <span class="span">Adobe Learn</span>
+        <span class="span">Medium and large business support</span>
         </div>
       </div>
 
@@ -270,8 +249,8 @@
       <div class="child-footer-1">
         <h4>Contact</h4>
         <div class="footer-list">
-        <span>Chat with sales</span>
-        <span>Request information</span>
+        <span class="span">Chat with sales</span>
+        <span class="span">Request information</span>
         </div>
       </div>
 
@@ -279,17 +258,17 @@
       <div class="child-footer-1">
         <h4>Adobe</h4>
         <div class="footer-list">
-        <span>Log into your account</span>
-        <span>About</span>
-        <span>Careers</span>
-        <span>Events</span>
-        <span>Newsroom</span>
-        <span>Corporate responsibility</span>
-        <span>Investor Relations</span>
-        <span>Supply chain</span>
-        <span>Trust Center</span>
-        <span>Adobe for All</span>
-        <span>Adobe Blog</span>
+        <span class="span">Log into your account</span>
+        <span class="span">About</span>
+        <span class="span">Careers</span>
+        <span class="span">Events</span>
+        <span class="span">Newsroom</span>
+        <span class="span">Corporate responsibility</span>
+        <span class="span">Investor Relations</span>
+        <span class="span">Supply chain</span>
+        <span class="span">Trust Center</span>
+        <span class="span">Adobe for All</span>
+        <span class="span">Adobe Blog</span>
         </div>
       </div>
 
